@@ -1,14 +1,15 @@
+import Text from "@frauches/design-system/components/Text";
 import { sum } from "@frauches/utils/math";
 
 export default function HomeScreen() {
   return (
     <main>
-      <h1> Home </h1>
+      <Text tag="h1"> Home </Text>
 
-      <p>
+      <Text tag="p">
         It has to sum numbers using the function from utils package workspace{" "}
         {sum(5, 3)}
-      </p>
+      </Text>
     </main>
   );
 }
