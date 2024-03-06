@@ -15,9 +15,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint \"./**/*.{ts,tsx}\""
   },
   "devDependencies": {
+    "@frauches/eslint-commons": "*",
     "@frauches/tsconfig-commons": "*",
     "@types/node": "^20.11.20",
     "@types/react": "^18.2.58",
