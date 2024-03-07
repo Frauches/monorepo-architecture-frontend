@@ -10,12 +10,10 @@ interface TextProps {
   children: React.ReactNode;
 }
 
-const Text = ({ tag, children, ...props }: TextProps) => {
+export const Text = ({ tag, children, ...props }: TextProps) => {
   return (
     <StyledText as={tag} {...props}>
       {children}
     </StyledText>
   );
 };
-
-export default Text;

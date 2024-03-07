@@ -1,4 +1,4 @@
-import Text from "@frauches/design-system/components/Text";
+import { Text } from "@frauches/design-system/components/Text";
 import { sum } from "@frauches/utils/math/sum";
 
 export default function HomeScreen() {
