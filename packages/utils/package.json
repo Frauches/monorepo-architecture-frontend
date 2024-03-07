@@ -4,9 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "test": "jest",
     "lint": "eslint \"./**/*.{ts,tsx}\""
   },
   "devDependencies": {
-    "@frauches/tsconfig-commons": "*"
+    "@frauches/test-commons": "*",
+    "@frauches/tsconfig-commons": "*",
+    "@frauches/eslint-commons": "*"
   }
 }
