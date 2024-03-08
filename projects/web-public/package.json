@@ -15,9 +15,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "test": "jest",
     "lint": "eslint \"./**/*.{ts,tsx}\""
   },
   "devDependencies": {
+    "@frauches/test-commons": "*",
     "@frauches/eslint-commons": "*",
     "@frauches/tsconfig-commons": "*",
     "@types/node": "^20.11.20",

@@ -18,14 +18,17 @@
   },
   "scripts": {
     "lint": "yarn workspaces run lint",
+    "test": "yarn workspaces run jest",
+    "test-commons": "yarn workspace @frauches/test-commons",
     "design-system": "yarn workspace @frauches/design-system",
-    "web-public": "yarn workspace @frauches/web-public",
-    "utils": "yarn workspace @frauches/utils",
     "test:design-system": "yarn design-system test",
-    "test:utils": "yarn utils test",
-    "dev:web-public": "yarn web-public dev",
+    "web-public": "yarn workspace @frauches/web-public",
     "lint:web-public": "yarn web-public lint",
+    "test:web-public": "yarn web-public test",
     "build:web-public": "yarn web-public build",
-    "start:web-public": "yarn web-public start"
+    "start:web-public": "yarn web-public start",
+    "dev:web-public": "yarn web-public dev",
+    "utils": "yarn workspace @frauches/utils",
+    "test:utils": "yarn utils test"
   }
 }

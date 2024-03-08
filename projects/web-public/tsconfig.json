@@ -1,4 +1,4 @@
 {
   "extends": "@frauches/tsconfig-commons/base.json",
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "jest.config.ts"]
 }
